@@ -74,7 +74,7 @@ function MainMenu() {
     <motion.section
       className={`${styles.mainMenu}`}
       animate={{
-        width: isShown ? "550px" : "155px",
+        width: isShown ? "1000px" : "155px",
       }}
       onMouseEnter={() => setIsShown(true)}
       onMouseLeave={() => setIsShown(false)}
@@ -83,7 +83,7 @@ function MainMenu() {
         {isShown ? (
           <UserInfoContainer
             isShown={isShown}
-            name="Daniel"
+            name="Daniela"
             src={
               "https://i.pinimg.com/736x/19/85/be/1985be408ebdeb23b19af4cdf2f86e61.jpg"
             }
