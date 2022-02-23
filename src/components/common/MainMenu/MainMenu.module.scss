@@ -4,11 +4,8 @@
   position: relative;
   z-index: 999;
   padding-right: 14px;
-  //   width: 7%; in close
   overflow: hidden;
-  //   width: 19%;
   position: absolute;
-  // background-image: url("../../../assets/menuBackgrounder.svg");
   background: rgb(4, 4, 4);
   background: linear-gradient(
     90deg,
@@ -72,15 +69,10 @@
   ul {
     list-style-type: none;
     li {
-      //   margin-bottom: 20px;
       a {
-        // background: #3b486d;
         display: flex;
         text-transform: uppercase;
         margin-bottom: 15px;
-        // padding: 24px;
-        // border-radius: 15px;
-        // padding: 16px;
         span {
           letter-spacing: 7px;
           color: #828386;
@@ -90,6 +82,4 @@
       }
     }
   }
-}
-.buttons_section {
 }
