@@ -1,0 +1,71 @@
+.movieSection {
+  text-transform: uppercase;
+  padding-top: 22px;
+  margin-bottom: 130px;
+  .category {
+    color: #828386;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 6px;
+  }
+  .movieName {
+    font-weight: bold;
+    font-size: 66px;
+  }
+  div {
+    margin-bottom: 25px;
+  }
+}
+.infoBar {
+  text-transform: lowercase;
+  span {
+    padding-right: 15px;
+  }
+}
+.more_Buttons {
+  display: flex;
+  width: 100%;
+  :nth-child(1) {
+    background: white;
+    color: black;
+  }
+  :nth-child(2) {
+    background: rgb(9, 51, 87);
+    background: linear-gradient(
+      149deg,
+      rgba(9, 51, 87, 1) 0%,
+      rgba(39, 39, 245, 1) 100%
+    );
+
+    color: white;
+  }
+  a {
+    padding: 23px;
+    // display: flex;
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 30px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 21px;
+    text-transform: none;
+    font-weight: bold;
+    i {
+      margin-right: 5px;
+      font-size: 15px;
+    }
+  }
+}
+.movie_description {
+  p {
+    // font-size: 30vw;
+  }
+  text-transform: none;
+}
+.movieContext {
+  width: 700px;
+  overflow: hidden;
+  height: 435px;
+}
