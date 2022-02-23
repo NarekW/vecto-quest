@@ -35,9 +35,24 @@ const SettingsContainer = ({ isShown }) => (
 const MenuLink = ({ text, href, src, isShown }) => (
   <li>
     <motion.a
-      whileHover={{
-        backgroundColor: "#3B486D",
-      }}
+      whileHover={
+        text === "Home"
+          ? {
+              backgroundColor: "#3B486D",
+              width: "350px",
+              borderRadius: "15px",
+            }
+          : { backgroundColor: "#3B486D" }
+      }
+      style={
+        text === "Home"
+          ? {
+              backgroundColor: "#3B486D",
+              width: "62px",
+              borderRadius: "42px",
+            }
+          : { backgroundColor: "transparent" }
+      }
       whileFocus={{
         backgroundColor: "#3B486D",
         width: "62px",

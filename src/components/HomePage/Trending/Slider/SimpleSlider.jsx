@@ -68,7 +68,7 @@ export default class SimpleSlider extends Component {
       <div>
         <Slider {...settings}>
           {this.state.moviesArray.map((el) => (
-            <div key={el.id}>
+            <div key={el.id + 1}>
               <SliderItem
                 movieData={el}
                 setFeaturedMovieData={setFeaturedMovieData}

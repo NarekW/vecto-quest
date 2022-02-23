@@ -23,7 +23,7 @@ function Movie({ featuredMovieData }) {
         </div>
         <div className={`${styles.more_Buttons}`}>
           <a href="/#">
-            <i class="fas fa-play"></i> Play
+            <i className="fas fa-play"></i> Play
           </a>
           <a href="/#">More Info</a>
         </div>
