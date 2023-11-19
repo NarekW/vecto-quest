@@ -34,19 +34,6 @@ function HomePage() {
     }
   }, [featuredMovieData, prevFeaturedMovieData]);
 
-  useEffect(() => {
-    if (featuredMovieData.VideoUrl) {
-      const timer = setTimeout(() => {
-        setIsVideoPlaying(true);
-      }, 2000);
-
-      return () => {
-        clearTimeout(timer);
-        setIsVideoPlaying(false);
-      };
-    }
-  }, [featuredMovieData.VideoUrl]);
-
   return (
     <motion.section
       className={`${styles.homepage}`}
