@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import "./Slider.scss";
 
-const SliderItem = ({ movieData, setMoviesData, setFeaturedMovieData }) => {
+const SliderItem = ({ movieData, setFeaturedMovieData }) => {
   const selectHandler = (e) => {
     e.preventDefault();
     setFeaturedMovieData(movieData);
